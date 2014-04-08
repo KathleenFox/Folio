@@ -1,0 +1,259 @@
+#logo {
+    height:350px;
+    width:768px;
+    background:transparent;
+}
+#wrapper {
+    width: 1280px;
+    margin: 10px 0px 10px 0px;
+    height: 1024px;
+    background-image:url("https://googledrive.com/host/0ByiDuodl4dz-dF83QlBaMWlnR0U/portfolio 3.png");
+    background-repeat:repeat-x;
+    background-repeat:repeat-y;
+}
+
+header {
+    margin: 0   0px 0px 0px;
+    width: 900px;
+    height:650px;
+    background:hsla(0,0%,100%,.8);
+    float:left;
+   
+}
+nav {
+    width:200px;
+    height:500px;
+    float:left;
+    padding: 0px 0px 0px 100px;
+   background-position:right center;
+}
+
+
+@charset 'UTF-8';
+/* Some stylesheet reset */
+#cssmenu > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  line-height: 1;
+}
+/* The container */
+#cssmenu > ul {
+  display: block;
+  position: relative;
+  width: 150px;
+  /* The list elements which contain the links */
+
+}
+#cssmenu > ul li {
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  
+}
+/* General link styling */
+#cssmenu > ul li a {
+  /* Layout */
+
+  display: block;
+  position: relative;
+  margin: 0;
+  border-top: 1px dotted #f87d23;
+  border-bottom: 1px dotted #f87d23;
+  padding: 57px 30px;
+  /* Typography */
+
+  font-family: Baskerville, Arial, sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: 0 1px 1px #000;
+  font-size: 13px;
+  font-weight: 300;
+  /* Background & effects */
+
+  background: #e4650b;
+}
+/* Rounded corners for the first link of the menu/submenus */
+#cssmenu > ul li:first-child > a {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-top: 0;
+}
+/* Rounded corners for the last link of the menu/submenus */
+#cssmenu > ul li:last-child > a {
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-bottom: 0;
+}
+/* The hover state of the menu/submenu links */
+#cssmenu > ul li > a:hover,
+#cssmenu > ul li:hover > a {
+  color: #000000;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+  background: #f87c23;
+  background: -webkit-linear-gradient(#f78e43, #f87c23);
+  background: -moz-linear-gradient(#f78e43, #f87c23);
+  background: linear-gradient(#f78e43, #f87c23);
+  border-color: transparent;
+}
+/* The arrow indicating a submenu */
+#cssmenu > ul .has-sub > a::after {
+  content: '';
+  position: absolute;
+  top: 16px;
+  right: 10px;
+  width: 0px;
+  height: 0px;
+  /* Creating the arrow using borders */
+
+  border: 4px solid transparent;
+  border-left: 4px solid #ffffff;
+}
+/* The same arrow, but with a darker color, to create the shadow effect */
+#cssmenu > ul .has-sub > a::before {
+  content: '';
+  position: absolute;
+  top: 17px;
+  right: 10px;
+  width: 0px;
+  height: 0px;
+  /* Creating the arrow using borders */
+
+  border: 4px transparent;
+  border-left: 4px solid #000;
+}
+/* Changing the color of the arrow on hover */
+#cssmenu > ul li > a:hover::after,
+#cssmenu > ul li:hover > a::after {
+  border-left: 4px solid #000000;
+}
+#cssmenu > ul li > a:hover::before,
+#cssmenu > ul li:hover > a::before {
+   border-left: 4px solid rgba(0, 0, 0, 0.3);
+}
+/* THE SUBMENUS */
+#cssmenu > ul ul {
+  position: absolute;
+  left: 100%;
+  top: -9999px;
+  padding-left: 5px;
+  opacity: 0;
+  width: 140px;
+  /* The fade effect, created using an opacity transition */
+
+  -webkit-transition: opacity 0.3s ease-in;
+  -moz-transition: opacity 0.3s ease-in;
+  transition: opacity 0.3s ease-in;
+}
+/* Showing the submenu when the user is hovering the parent link */
+#cssmenu > ul li:hover > ul {
+  top: 0px;
+  opacity: 1;
+}
+
+h1{
+    margin: 20px 0px 0px 120px;
+    padding-top:20px;
+    padding-right:15px;
+    width:800px;
+    height: 70px;
+    text-align:right;
+    background:#e4650b;
+    font-family:Baskerville, serif;
+    color:#fff;
+    
+}
+
+
+
+
+
+#slider{
+    padding:4px;
+    margin: 20px 0px 0px 120px;
+    width:800px;
+    height: 300px;
+    background:#e4650b;
+   
+    
+}
+
+#paragraph{
+    margin-top:15px;
+    float:left;
+    margin-left:30px;
+    margin-right:30px;
+  ` width:205px;
+    height:275px;
+    background:white;
+}
+
+h2{
+    text-align:center;
+    font-family:"Baskerville", Times, serif;
+     width: 750px;
+}
+p{
+    font-family:"Helvetica",sans-serif;
+    width:750px;
+    text-align:center;
+    font-size:23px;
+}
+
+footer{
+    width:200px;
+    text-align:center;
+    font-size:15px;
+    font-family:"Helvetica",sans-serif;
+}
+        
+#bottom{
+    
+    margin: 20px 0px 0px 120px;
+    width:805px;
+    height: 170px;
+    background-image:url("https://googledrive.com/host/0ByiDuodl4dz-dF83QlBaMWlnR0U/bottom.png") ;
+   
+}
+
+.Buttons {
+    margin-top:50px;
+    margin-left:175px;
+	-moz-box-shadow:inset 4px -3px 0px -1px #610d06;
+	-webkit-box-shadow:inset 4px -3px 0px -1px #610d06;
+	box-shadow:inset 4px -3px 0px -1px #610d06;
+	background-color:#ad2121;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:31px;
+	-moz-border-radius-topright:31px;
+	border-top-right-radius:31px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:31px;
+	-moz-border-radius-bottomleft:31px;
+	border-bottom-left-radius:31px;
+	text-indent:-1.72px;
+	border:1px solid #d02718;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:21px;
+	font-weight:bold;
+	font-style:normal;
+	height:69px;
+	line-height:69px;
+	width:115px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 5px 0px #610802;
+}.Buttons:hover {
+	background-color:#e01d1d;
+}.Buttons:active {
+	position:relative;
+	top:1px;
